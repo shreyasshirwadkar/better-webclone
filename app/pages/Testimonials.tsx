@@ -7,7 +7,7 @@ export default function Testimonials() {
           <h1 className=" text-5xl md:text-7xl tracking-tight font-bold pl-10">
             Find out why
             <br />
-            we're better.
+            we&apos;re better.
           </h1>
           <div className="flex flex-col items-center mt-5 gap-3 ml-0">
             <button className="bg-green-900 hover:bg-green-800 duration-200 font-bold py-6 rounded-full text-white w-[84vw] md:w-[18vw]">
@@ -64,7 +64,7 @@ export default function Testimonials() {
           <h1 className=" text-5xl md:text-6xl lg:text-8xl tracking-tight font-bold ">
             Find out why
             <br />
-            we're better.
+            we&apos;re better.
           </h1>
           <div className="flex flex-col items-center mt-5 gap-3 ml-0">
             <button className="bg-green-900 hover:bg-green-800 duration-200 font-bold py-6 rounded-full text-white w-[84vw] md:w-[30vw] lg:w-[18vw]">

@@ -26,7 +26,7 @@ export default function Footer() {
                   <span className="text-gray-400">Mortgage</span>
                 </h3>
                 <p className="text-gray-600 text-sm">
-                  We can't wait to say "Welcome home." Apply 100% online, with
+                  We can&apos;t wait to say &quot;Welcome home.&quot; Apply 100% online, with
                   expert customer support.
                 </p>
               </div>

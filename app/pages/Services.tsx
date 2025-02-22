@@ -97,7 +97,7 @@ export default function Services() {
           <h2 className="text-6xl font-bold tracking-tight">
             Got questions?
             <br />
-            We've got answers
+            We&apos;ve got answers
           </h2>
           <div className="flex flex-row gap-6 items-end">
             {buttons.map((text, index) => (
