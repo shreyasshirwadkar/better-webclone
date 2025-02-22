@@ -12,6 +12,7 @@ export default {
         background: "rgb(0, 71, 51)",
         foreground: "var(--foreground)",
         heading: "#1EE07F",
+        serviceCard: "#F0F7F1",
       },
     },
   },
