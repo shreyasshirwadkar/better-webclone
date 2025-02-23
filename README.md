@@ -1,5 +1,11 @@
 # Better.com Web Clone
 
+
+
+https://github.com/user-attachments/assets/8958c569-0fae-444d-a9b9-b6f308acdee3
+
+
+
 This is a **multi-page web application** built using **Next.js** and **Tailwind CSS**, replicating the design and basic functionality of key pages from [Better.com](https://better.com). The project was developed as part of the selection process for the **React Intern role**.
 
 ## 🚀 Live Demo
