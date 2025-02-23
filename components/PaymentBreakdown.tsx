@@ -6,11 +6,11 @@ interface PaymentBreakdownProps {
 const PaymentBreakdown: React.FC<PaymentBreakdownProps> = ({
   monthlyPayment,
 }) => {
-  const [homePrice, setHomePrice] = useState(1596852227);
+  const [homePrice] = useState(1596852227);
   const [propertyTaxes, setPropertyTaxes] = useState(259);
   const [insurance, setInsurance] = useState(136);
   const [hoaFees, setHoaFees] = useState(133);
-  const [utilities, setUtilities] = useState(101);
+  const [utilities] = useState(101);
 
   return (
     <div className="flex flex-col md:flex-row gap-16 bg-[#fdfcfb] mt-12 pt-28 p-12 rounded-lg shadow-md">
