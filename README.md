@@ -52,14 +52,6 @@ This project aims to replicate two pages from the Better.com website while ensur
 
 The project is deployed on **Vercel** and can be accessed [here](https://better-webclone.vercel.app/).
 
-## 📸 Screenshots
-
-_(You can add screenshots of your project here to showcase the UI.)_
-
-## 📬 Contact
-
-For any questions or suggestions, feel free to reach out.
-
 Happy Coding! 🚀
 
 ---
