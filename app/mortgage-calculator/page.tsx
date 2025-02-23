@@ -50,12 +50,12 @@ export default function MortgageCalculator() {
   };
 
   return (
-    <div className="min-h-screen bg-[#f5f8f5]">
-      <div className="ml-16 pt-40 max-w-6xl">
+    <div className="min-h-screen bg-[#f5f8f5] overflow-x-hidden">
+      <div className="px-10 md:ml-16 pt-40 md:max-w-6xl">
         <h1 className="mb-6 text-5xl font-bold text-gray-900">
           Mortgage calculator
         </h1>
-        <p className="mb-8 text-lg text-gray-600 w-[60vw]">
+        <p className="mb-8 text-lg text-gray-600 md:w-[60vw]">
           Our mortgage calculator includes key factors like homeowners
           association fees, property taxes, and private mortgage insurance
           (PMI). Get the whole picture and calculate your total monthly payment.
@@ -63,9 +63,9 @@ export default function MortgageCalculator() {
 
         <div className="space-y-8">
           <div className="grid gap-4">
-            <div className="flex items-center gap-44 ">
+            <div className=" flex items-center md:gap-44 gap-4 ">
               <div>
-                <label className="text-lg font-bold text-gray-700">
+                <label className="text-sm md:text-lg font-bold text-gray-700">
                   Home price
                 </label>
                 <Input
@@ -76,18 +76,18 @@ export default function MortgageCalculator() {
                       Number.parseInt(e.target.value.replace(/\D/g, "")) || 0;
                     handleHomePriceChange(value);
                   }}
-                  className="mt-2 w-80  duration-200 border-4 border-gray-300 hover:border-green-700 !text-6xl py-11 bg-white font-bold"
+                  className="mt-2 w-60 md:w-80  duration-200 border-2 md:border-4 border-gray-300 hover:border-green-700 text-2xl md:!text-6xl py-8 md:py-11 bg-white font-bold"
                 />
               </div>
               <div>
-                <div className="text-lg font-bold text-gray-700">
+                <div className="text-sm md:text-lg font-bold text-gray-700">
                   Monthly payment
                 </div>
-                <div className="mt-2 flex flex-col justify-center h-[15vh] text-6xl font-bold w-96 ">
+                <div className="mt-2 flex flex-col justify-center md:h-[15vh] text-2xl md:text-6xl font-bold w-96 ">
                   ${monthlyPayment}/mo
                 </div>
               </div>
-              <Button className=" px-11 py-9 mr-4 flex flex-col justify-center text-lg font-bold bg-[#00804d] hover:bg-[#0e614d]">
+              <Button className="hidden md:flex px-11 py-9 mr-4  flex-col justify-center text-lg font-bold bg-[#00804d] hover:bg-[#0e614d]">
                 Get pre-approved
               </Button>
             </div>
@@ -96,11 +96,14 @@ export default function MortgageCalculator() {
               onValueChange={([value]) => handleHomePriceChange(value)}
               max={1000000}
               step={1000}
-              className="py-4"
+              className="w-96 py-4"
             />
+            <Button className="flex md:hidden  py-9 w-96  flex-col justify-center text-lg font-bold bg-[#00804d] hover:bg-[#0e614d]">
+              Get pre-approved
+            </Button>
           </div>
 
-          <div className="grid grid-cols-4 gap-4">
+          <div className="hidden md:grid grid-cols-4 gap-4">
             <div>
               <label className="text-sm font-medium text-gray-700">
                 ZIP code

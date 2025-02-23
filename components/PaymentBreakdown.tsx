@@ -15,18 +15,18 @@ const PaymentBreakdown: React.FC<PaymentBreakdownProps> = ({
   return (
     <div className="flex flex-col md:flex-row gap-16 bg-[#fdfcfb] mt-12 pt-28 p-12 rounded-lg shadow-md">
       {/* Left Section */}
-      <div className="w-[50vw] ">
+      <div className="md:w-[50vw] ">
         <h2 className="text-xl font-bold ">Monthly payment breakdown</h2>
         <h1 className="text-6xl font-bold text-gray-900 mt-12">
           ${monthlyPayment}/mo
         </h1>
 
         {/* Progress Bar */}
-        <div className="mt-12 h-20 w-[40vw] bg-green-700 rounded-full"></div>
+        <div className="mt-12 h-20 md:w-[40vw] bg-green-700 rounded-full"></div>
       </div>
 
       {/* Right Section */}
-      <div className=" p-12 w-[50vw] flex flex-col justify-between ">
+      <div className=" md:p-12 md:w-[50vw] flex flex-col justify-between ">
         {/* Input Fields */}
         <div className="mt-4 flex flex-col space-y-3">
           <div className="flex justify-between items-center">
