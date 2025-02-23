@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Landing() {
   return (
-    <section className="h-[110vh] md:h-[80vh] lg:h-[130vh] flex flex-col pt-32 lg:pt-40 justify-center  items-center md:items-start md:pl-16 bg-background overflow-hidden">
+    <section className="h-[110vh] md:h-[80vh] lg:h-[100vh] flex flex-col pt-32 lg:pt-40 justify-center  items-center md:items-start md:pl-16 bg-background overflow-hidden">
       <h1 className="text-center text-6xl  font-bold text-heading md:text-7xl lg:text-9xl md:pt-12 md:text-center md:mx-auto z-10">
         Mortgages
         <br />
