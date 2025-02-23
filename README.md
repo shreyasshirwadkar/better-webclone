@@ -6,10 +6,6 @@ This is a **multi-page web application** built using **Next.js** and **Tailwind 
 
 🔗 **Deployed Site:** [Better Web Clone](https://better-webclone.vercel.app/)
 
-## 📂 Project Overview
-
-This project aims to replicate two pages from the Better.com website while ensuring full responsiveness and interactivity.
-
 ### ✅ Features
 
 - Built with **Next.js** for server-side rendering and efficient routing.
@@ -19,13 +15,6 @@ This project aims to replicate two pages from the Better.com website while ensur
   - **Mortgage Calculator (`/mortgage-calculator`)** – Implements an interactive mortgage calculator.
 - Fully **responsive design**, ensuring smooth experience across all devices.
 - **Deployed on Vercel** for seamless hosting.
-
-## 🛠️ Technologies Used
-
-- **Next.js** – For server-side rendering and routing.
-- **React.js** – For component-based UI development.
-- **Tailwind CSS** – For fast and efficient styling.
-- **Vercel** – For deployment.
 
 ## 📌 Setup Instructions
 
@@ -47,6 +36,3 @@ This project aims to replicate two pages from the Better.com website while ensur
 ## 🚀 Deployment
 
 The project is deployed on **Vercel** and can be accessed [here](https://better-webclone.vercel.app/).
-
-
-
