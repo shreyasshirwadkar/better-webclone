@@ -87,7 +87,7 @@ export default function MortgageCalculator() {
                   ${monthlyPayment}/mo
                 </div>
               </div>
-              <Button className=" px-11 py-9 flex flex-col justify-center text-lg font-bold bg-[#00804d] hover:bg-[#0e614d]">
+              <Button className=" px-11 py-9 mr-4 flex flex-col justify-center text-lg font-bold bg-[#00804d] hover:bg-[#0e614d]">
                 Get pre-approved
               </Button>
             </div>
