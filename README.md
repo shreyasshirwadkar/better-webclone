@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Here's a **GitHub README** for your project:
 
-## Getting Started
+---
 
-First, run the development server:
+# Better.com Web Clone
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This is a **multi-page web application** built using **Next.js** and **Tailwind CSS**, replicating the design and basic functionality of key pages from [Better.com](https://better.com). The project was developed as part of the selection process for the **React Intern role**.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Live Demo
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+🔗 **Deployed Site:** [Better Web Clone](https://better-webclone.vercel.app/)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📂 Project Overview
 
-## Learn More
+This project aims to replicate two pages from the Better.com website while ensuring full responsiveness and interactivity.
 
-To learn more about Next.js, take a look at the following resources:
+### ✅ Features
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Built with **Next.js** for server-side rendering and efficient routing.
+- Styled using **Tailwind CSS** for a modern and responsive UI.
+- Implements two primary pages:
+  - **Home Page (`/`)** – Replicates the homepage layout of Better.com.
+  - **Mortgage Calculator (`/mortgage-calculator`)** – Implements an interactive mortgage calculator.
+- Fully **responsive design**, ensuring smooth experience across all devices.
+- **Deployed on Vercel** for seamless hosting.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🛠️ Technologies Used
 
-## Deploy on Vercel
+- **Next.js** – For server-side rendering and routing.
+- **React.js** – For component-based UI development.
+- **Tailwind CSS** – For fast and efficient styling.
+- **Vercel** – For deployment.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📌 Setup Instructions
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/shreyasshirwadkar/better-webclone.git
+   cd better-webclone
+   ```
+2. Install dependencies:
+   ```sh
+   npm install
+   ```
+3. Run the development server:
+   ```sh
+   npm run dev
+   ```
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+## 🚀 Deployment
+
+The project is deployed on **Vercel** and can be accessed [here](https://better-webclone.vercel.app/).
+
+## 📸 Screenshots
+
+_(You can add screenshots of your project here to showcase the UI.)_
+
+## 📬 Contact
+
+For any questions or suggestions, feel free to reach out.
+
+Happy Coding! 🚀
+
+---
+
+You can customize it further if needed! 🚀
