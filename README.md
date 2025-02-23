@@ -1,7 +1,3 @@
-Here's a **GitHub README** for your project:
-
----
-
 # Better.com Web Clone
 
 This is a **multi-page web application** built using **Next.js** and **Tailwind CSS**, replicating the design and basic functionality of key pages from [Better.com](https://better.com). The project was developed as part of the selection process for the **React Intern role**.
@@ -52,8 +48,5 @@ This project aims to replicate two pages from the Better.com website while ensur
 
 The project is deployed on **Vercel** and can be accessed [here](https://better-webclone.vercel.app/).
 
-Happy Coding! 🚀
 
----
 
-You can customize it further if needed! 🚀
