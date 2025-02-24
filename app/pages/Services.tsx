@@ -122,8 +122,22 @@ export default function Services() {
               <h1 className="text-2xl font-bold w-1/2">
                 {sections[selected][0].title}
               </h1>
-              <button className="rounded-full w-12 border-gray-400 border-2 py-3 font-bold">
-                --//
+              <button className="rounded-full flex justify-center mt-4 w-12 border-gray-400 border-2 py-3 font-bold">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  className="lucide lucide-arrow-right"
+                >
+                  <path d="M5 12h14" />
+                  <path d="m12 5 7 7-7 7" />
+                </svg>
               </button>
               <Image
                 src={sections[selected][0].image}
@@ -139,8 +153,22 @@ export default function Services() {
                   {sections[selected][1].title}
                 </h1>
                 <p>{sections[selected][1].description}</p>
-                <button className="rounded-full mt-4 w-12 border-gray-400 border-2 py-3 font-bold">
-                  --//
+                <button className="rounded-full flex justify-center mt-4 w-12 border-gray-400 border-2 py-3 font-bold">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    className="lucide lucide-arrow-right"
+                  >
+                    <path d="M5 12h14" />
+                    <path d="m12 5 7 7-7 7" />
+                  </svg>
                 </button>
               </div>
               <Image
@@ -165,8 +193,22 @@ export default function Services() {
                   {sections[selected][2].title}
                 </h1>
                 <p>{sections[selected][2].description}</p>
-                <button className="rounded-full w-12 border-gray-400 border-2 py-3 font-bold">
-                  --//
+                <button className="rounded-full flex justify-center mt-4 w-12 border-gray-400 border-2 py-3 font-bold">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    className="lucide lucide-arrow-right"
+                  >
+                    <path d="M5 12h14" />
+                    <path d="m12 5 7 7-7 7" />
+                  </svg>
                 </button>
               </div>
             </div>
@@ -174,8 +216,22 @@ export default function Services() {
               <h1 className="text-2xl font-bold">
                 {sections[selected][3].title}
               </h1>
-              <button className="rounded-full w-12 border-gray-400 border-2 py-3 font-bold">
-                --//
+              <button className="rounded-full flex justify-center mt-4 w-12 border-gray-400 border-2 py-3 font-bold">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  className="lucide lucide-arrow-right"
+                >
+                  <path d="M5 12h14" />
+                  <path d="m12 5 7 7-7 7" />
+                </svg>
               </button>
               <Image
                 src={sections[selected][3].image}
